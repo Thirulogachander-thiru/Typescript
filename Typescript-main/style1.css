@@ -1,0 +1,86 @@
+.topic{
+    background-color: aquamarine;
+    text-align: center;
+    height: 389px;
+    width:350px;
+    margin-top: 100px;
+    padding-right: 100px;
+    
+   
+
+}
+.bg{
+    background-color:rgb(162, 182, 238);
+    display: flex;
+    justify-content: center;
+}
+.addtask{
+    color:white;
+    background-color: blue;
+    font-size:15px;
+    margin-bottom: 10px;
+}
+.addtask1{
+    color:white;
+    background-color:green;
+    font-size:15px;
+}
+.task{
+    background-color: white;
+
+    font-size:15px
+    
+}
+.dot{
+    list-style: none;
+    font-size: 20px;
+    color:blueviolet;
+}
+.tb{
+    text-align: center;
+    font-size: 24px;
+    color:tomato;
+}
+
+/* style1.css or inline styles */
+li {
+    display: flex; /* Use flex display to align elements horizontally */
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 10px; /* Add some margin between list items */
+}
+
+li input[type="checkbox"],
+li select,
+li button {
+    margin-right: 10px; /* Add spacing between elements */
+}
+
+li button {
+    background-color: #ff0000; /* Red color for delete button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 10px;
+    
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+   
+}
+
+.search-button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
